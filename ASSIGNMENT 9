@@ -1,0 +1,87 @@
+# To find BOD at 7th day 25C
+# To find Decay Coefficient at 25C
+K= float(input("Decay Coefficient:")
+T= float(input("Temperature of 3rd day BOD:")
+TI=float(input("Temperature of 7th day BOD:")
+K2 = (K1*(1.047)^(T1-T)
+print ("The value ofK2 is:", K2)
+# To find Ultimate BOD
+e=("2.718")
+print ("The value ofe is:", e)
+
+Assignment 7
+
+Bl = float(input("BOD at 3rd day 20c:")
+t-float(input("time in days for finding B1:"))
+E=(1-e^-0.23*)
+print ("The value ofE is:", E)
+10 = (BI/E)
+print ("The value of 10 is:", 10)
+# To find BOD at 7th day 25C
+B2 = float(input("BoD at 7rd day 25c:"))
+t1 =fLOAT(input("time in days for findinfB2:")
+El =(1-e-0.289*11)
+print ("The value ofEl is:", El)
+B2 = (10*E)
+print ("The value of B2 is:", B2)
+
+65
+
+OUTPUT:
+Decay Coefficient: 0.23
+Temperature of 3rd day BOD: 20
+Temperature of 7th day BOD: 25
+The value ofKl is: 0.289375 1 572825015
+The value of e is: 2.718
+BOD at 3rd day 20c:50
+Time in days for finding Bl:3
+The value of E is: 0.49838804582 143437
+The value of 10 is: 100,323433 55585682 mg/lit
+Time in days for finding B2:7
+The value of El is: 0.8677141604830975
+The value of B2 is: 87.052063924702 1 1 mg/it
+
+66
+
+#Determination if density of sludge removed from aeration tank
+M= float(input("Enter the value of initial mass :")
+S=float(input("Enter the value ofsolid containing sludge in
+percentage:"))
+Gs= float(input("Enterthe value of Specific gravity ofsludge solid:")
+Rho W= float(input("Enter the value of density of water:"))
+Ws = (S/M)*100)
+m =M- Ws
+
+Assignment 7
+
+print("the value ofmass of water", m)
+print("The value of Solid Content in sludge", Ws)
+Vw =m /Rho W
+print ("The Value of Volume", Vw)
+Rho S =Gs * Rho W
+print("The value ofDensity of solid content in sludge", Rho S)
+Vs=(Ws/(Gs*Rho S ))
+print("The value of volume of solid content in sludge", Vs)
+Vt= Vw + Vs
+print("The value of total volume of solid content in sludge", Vt)
+Rho SL= M/ Vt
+
+67
+
+print("The value of Density of sludge removed from aeration", Rho SL)
+
+OUTPUT:
+Enter the value of initial mass :100
+Enterthe value ofsolid containing sludge in percentage:2
+Enter the value of Specific gravity of sludge solid:2.2
+Enter the value of density ofwater:1000
+the value of mass of water 98.0
+The value ofSolid Content in sludge 2,0
+The Value of Volume 0.098
+The value of Density of solid content in sludge 2200.0
+The value of volume ofsolid content in sludge
+0.000413223 14049586776
+The value of total volume ofsolid content in sludge
+0.098413223 14049587
+The value ofDensity of sludge removed from aeration
+1016.1236143768895
