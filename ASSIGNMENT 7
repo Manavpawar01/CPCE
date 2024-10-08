@@ -1,0 +1,198 @@
+Q1:
+1 # To Determine the bearing capacity of soil with water table
+2 BulkDensity =float(input("Enter the value of Bulk Density of soil:"))
+3 SatDensity = float(input("Enter the value of Saturated Density of soil:"))
+4 WaterDensity = float(input("Enter the unit Weight of Water:")
+5 Df= float(input("Enter the value of depth of footing:")
+6 Dw = float(input("Enter the value of water table above footing level:"))
+7 Dw1= float(input("Enter the value of Water table below the level of footing:")
+8 B float(input("Enter the value of width of footing:")
+9 Nq= float(input("Enter the vaiue of Nq:")
+10 N float(input("Enter the value of N ganna (N):")
+11 SubDensity SatDensity WaterDensity
+12 print ("Submerged Weight of soil is:", SubDensity)
+13 # The bearing capacity of soil when water table is at ground
+14 print ("CASE A")
+15 qu= (SubDensity* Df*Ng) + (0.5*0.8*B*SubDensity*N)
+16 print ("The value of ultimate bearing capacity of soil is:", qu)
+17 Approximate calculation of Bearing capacity of soil is.
+18 Rw= 0.5 + 0.5*(Dw/B)
+19 print ("The value of Rw is:", Rw)
+28 Rw1 = 0.5 + 0.5*(Dw1/8)
+21 print ("The value of Rw1 is:", Rw1)
+22 qu= (BulkDensity*Df*Ng*Rw) + (0.5*0.8*3*BulkDensity *N*Rw1)
+23 print ("The value ultimate bearing capacity of soil is:", qu)
+24 # Case B
+25 print ("CASE B")
+26 qu= (BulkDensity Df"Nq) + (0.5*o.8*8*SubDensity)
+27 print ("The value of ultimate bearing capacity is:", qu)
+28 Dw = float(input("Enter the value of water table above footing level:")
+29 Dwl = float(input('" Enter the value of Water table below the level of footing: ")
+30 print ("The approximate value of ultimate bearing capacity is: ")
+
+-52
+
+31 Rw 0.5 + 0.5*(Dw/B)
+32 print ("The value of Rw is:", Rw)
+33 Rw1= 0.5 + 0.5* (Dw1/8)
+34 print ("The value of Rw1 is:", Rw1)
+35 qu= (BulkDensity Df Ng Rw) (0.5 0.8*8*Bulk Density NR1)
+36 print ("The approximate value of ultimate hearing capacity is: ", qu)
+37 # Case C
+38 print ("CASE C")
+39 x = float(input("Enter the value of depth of water below footing:")
+40 qu (BulkDensity Of Ng) + (0.5 *0.8* (BulkDensity*x)+(SubDensity (B-)) "N)
+41 print ("The value of ultimate bearing capacity is:", qu)
+42 Dw = float(input("Enter the value of water table above footing level:")
+43 Dw1= float(input("Enter the value of Water table below the level of footing:'")
+44 print ("The approximate value of ultimate bearing capacity is:")
+45 Rw= 8.5+ 8.5*(Dw/B)
+46 print ("The value of Rw is:", Rw)
+47 Rw1 = 0.5 + 0.5*(Dw1/8)
+48 print ("The value of Rwl is: ", Rw1)
+49 qu= (Bulk Density Df Ng Rw) + (0.5*0.8*8*Bulk Density*N*Rw1)
+50 print ("the value of ultimate bearing capaciy is:", qu)
+
+Output:
+Enter the value of Bulk Density of soil:18
+Enter the value of Saturated Density of soil:20
+Enter che unit weight of Water: 10
+Enter the value of depth of footing:2
+Enter the value of water table above footing level:0
+Enter the value of Water table below the level of footing:0
+Enter the value of width of footing:3
+Enter the value of Ng:33
+
+53
+
+Enter the value of N gamma (N):34
+Submerged Weight of soil is: 10.0
+CASE A
+The value of ultimate bearing capacity of soil in 108.0
+The value of Rw is: 0.5
+The value of Rwl is: 0.5
+The value of ultimate bearing capacity of soil is: 961.2 CASE B
+The value of ultimate bearing capacity is: 1596.0
+Enter the value of water table above footing level:3
+Enter the value of Water table below the level of footing:0
+The approximate value of ultimate bearing capacity is:
+The value of Rw is: 1.8
+The value of Rwl is: 0.5
+The approximate value of ultimate bearing capacity is: 1555.2
+CASE C
+Enter the value of depth of water below footing:1
+The value of ultimate bearing capacity is: 1784.8000000000002
+Enter the value of water table above footing level:3
+Enter the value of water table belovw the level of footing:1
+The appoximate value of ultimate bearing capacity is:
+The value of R is: 1.0
+The value of Pal is: 0.6666666666666666
+the value of ultimate bearing capacity is: 1677.6
+
+54
+
+Q2:
+1 # To find the ultimate load carring capacity of pile
+2 UCS = float(input("Enter the value of UCS of soil:"))
+3 Cu = UCS/2
+4 B = float(input("Enter the value of dimension of pile:")
+51=float(in put("Enter the length of pile:")
+6 Alpha = float(input("Enter the value of adhesion factor:"))
+7 Nc= float(input("The value of Nc: ")|
+8 Ab = B*B
+9 print ("the Base area of footing is:", Ab)
+10 As = 4*B*1
+11 print ("The value of chohesion of soil is:", Cu)
+12 Qpu = Cu*Nc*Ab
+13 print ("'Qpu:", Qpu)
+14 Qf = Alpha*Cu*As
+15 print ("Qf:", Qf)
+16 Qu= Qpu + Qf
+17 print ("the value of load carring capacity of pile is (Qu):", Qu)
+
+Output:
+Enter the value of UCS of soil:75
+Enter the value of dimension of pile:0.45
+Enter the length of pile:15
+Enter the value of adhesion factor:0.8
+The value of Nc:9
+the Base area of footing is: 0.2025
+The value of chohesion of soil is: 37.5
+Qpu: 68.34375
+
+Adhav
+
+Qf: 810.0
+the value of load carring capacituy of pile is (Qu): 878.34375
+
+55
+
+# To Determine the bearing capacity of soil with water table
+BulkDensity = float (input ("Enter the value of Bulk Density of soil:"))
+SatDensity = float (input ("Enter the value of Saturated Density of soil:"))
+WaterDensity = float (input ("Enter the unit Weight of Water:"))
+Df = float (input ("Enter the value of depth of footing:")) B = float (input ("Enter the value of width of footing:"))
+Ng = float (input ("Enter the value of Ng:"))
+N Gamma = float (input ("Enter the value of N gamma (N):"))
+SubDensity = SatDens ity - WaterDensity
+print ("Submerged Weight of soil is:", SubDensity)
+M = int (input("Number of data values of Water table above footing level: "))
+N = int (input("Number of data values of Water table below footing level: "))
+Dw = []
+Dw1 =
+foriin range (1, M+1) :
+print ("Enter the value of water table above footing level measured w.r.t.
+ground (Dw) : ")
+Depth_Dw = float (input ())
+Dw. append (Depth_Dw)
+Rw = 0.5 + 0.5* (Depth Dw/B)
+print ("The value of Rw is:", Rw)
+for j in range (1, N+1):
+print ("Enter the value of water table above footing level measured w.r.t.
+ground (Dw1): ")
+Depth Dw1 = float (input())
+Dw.append (Depth Dw1)
+Rw1 = 0.5 + 0.5*(Depth Dw1/B)
+print ("The value of Rw1 is:", Rw1)
+qu= (BulkDensity*Df*Nq*Rw) + (0. 5*0.8*B*BulkDensity*N_Gamma*Rw1)
+print ("'qu: ", qu, "kN/m^2")
+Output:
+Enter the value of Bulk Density of soil:18
+Enter the value of Saturated Density of soil:20
+Enter the unit Weight of Water:10
+Enter the value of depth of footing:2
+Enter the value of width of footing : 3
+Enter the value of Ng:33
+Enter the value of N gamma (N):34
+Submerged Weight of soil is: 10.0
+Number of data values of Water table above footing level: 3
+Number of data values of Water table below footing level: 3
+Enter the value of water table above footing level measured w.r.t. ground
+(Dw) :
+The value of Rw is: e.5
+Enter the value of water table above footing level measured w.r.t. ground
+(Dw) :
+
+1
+The value of Rw is: 0.6666666666666666
+Enter the value of water table above footing level measured w.r.t. ground
+(Dw) :
+2
+The value of Rw is: 0.8333333333333333
+Enter the value of water table above footing level measured w.r.t. ground
+(Dw1):
+The value of Rw1 is: 0.5
+qu:
+Enter the value of water table above footing level measured w.r.t. ground
+(Dw1) :
+1357. 1999999999998 kN/m^2
+
+The value of Rw1 is: 0.5
+qu: 1357.1999999999998 kN/m^2
+Enter the value of water table above footing level measured w.r.t. ground
+(Dwl):
+1
+The value of Rw1 is: 0.6666666666666666
+qu: 1479.6 kN/m^2
+
+Prasau
